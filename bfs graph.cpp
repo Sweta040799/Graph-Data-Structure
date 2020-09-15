@@ -1,3 +1,13 @@
+/********************************************
+********* Code By Sweta *********************
+********************************************/
+
+
+/********************************************
+*******Code of BFS for directed Graph********
+*****Through Adjaency List Method**********
+********************************************/
+
 #include <bits/stdc++.h>
 #include <list>
 using namespace std;
@@ -65,4 +75,24 @@ int main(){
 	
 	return 0;
 }
+
+/***********************************************
+***************OUTPUT***************************
+***********************************************/
+
+
+/*
+4 6   enter vertex and edges respectively
+0 1   enter edges times vertices linked together
+0 2
+1 2
+2 0
+2 3
+3 3
+2     the verteices from where the traversal starts
+2 0 3 1   output
+--------------------------------
+Process exited after 52.74 seconds with return value 0
+Press any key to continue . . .
+*/
 
